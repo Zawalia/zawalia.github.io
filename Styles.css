@@ -1,0 +1,34 @@
+body {
+  color: #555;
+  margin: 0;
+}
+#header {
+  background-color:#1abc9c;
+  height: 150px;
+}
+#header-title {
+  display: block;
+  float: left;
+}
+#header-nav {
+  display: block;
+  float: right;
+}
+#header-nav li{
+  display: inline;
+}
+.post, .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.about {
+  text-align: center;
+}
+.post-author img,
+.about-author img {
+  border-radius: 50%
+}
+.post-container: nth-child(even) {
+  background-color: #f2f2f2;
+}
